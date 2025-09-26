@@ -33,11 +33,12 @@
 // //     const x = 9;
 // //     //console.log (x);
 // // }
-// // console.log(x);
+console.log(x);
 
-// const name = "Ben";
-// //template literal allows us to use variables inside our strings
-// console.log ('Hello ${name}')
+const name = "Ben"
+template literal allows us to use variables inside our strings
+ console.log ('Hello ${name}')
+
 function teamrocket() {
     let p = Math.floor(Math.random() * 101);
     let b = Math.floor(Math.random() * 101);
@@ -45,3 +46,5 @@ function teamrocket() {
     return p, b, d;
 }
 console.log (p, b, d);
+
+
