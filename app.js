@@ -1,6 +1,6 @@
-const students = ["Jean", "London", "Damian", "Thomas"];
+/* const students = ["Jean", "London", "Damian", "Thomas"];
 students.push ("Isaac");
-console.log (students);
+console.log (students); */
 /* console.log (students[1]) */
 
 /* function printAll(list){
