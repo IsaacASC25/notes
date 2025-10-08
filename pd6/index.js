@@ -1,14 +1,15 @@
 // select elements
-const button = document.querySelector(".btn");
-const box = document.querySelector(".box");
+const btn = document.querySelector(".btn");
 // use events
-function makeRGB(event) {
+function getRGB(event) {
   /* console.log(event);
 console.log(event.target); */
+const box = document.querySelector(".box");
   let r = Math.floor(Math.random() * 256);
   let g = Math.floor(Math.random() * 256);
   let b = Math.floor(Math.random() * 256);
   box.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+  document.querySelector("h1").textContent = `rgb(${r}, ${g}, ${b})`;
 }
 
-button.addEventListener("click", makeRGB);
+btn.addEventListener("click", getRGB);
