@@ -4,7 +4,7 @@ const btn = document.querySelector(".btn");
 function getRGB(event) {
   /* console.log(event);
 console.log(event.target); */
-const box = document.querySelector(".box");
+  const box = document.querySelector(".box");
   let r = Math.floor(Math.random() * 256);
   let g = Math.floor(Math.random() * 256);
   let b = Math.floor(Math.random() * 256);
